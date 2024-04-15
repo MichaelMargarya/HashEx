@@ -13,8 +13,8 @@ namespace HashExercise
             string[] reverseMessage = StringReverse(inForMessage);
             int[] asciiValues = ReverseInAscii(reverseMessage);
             string[] BinaCode = ConvertToBinaryCode(asciiValues);
-            double MyBinarode = ChangeMyBinarry(BinaCode);
-            Console.WriteLine(MyBinarode);
+            double MyBinarcode = ChangeMyBinarry(BinaCode);
+            Console.WriteLine(MyBinarcode);
         }
 
         public string[] StringInFore(string message)
@@ -79,6 +79,5 @@ namespace HashExercise
             }
             return (double)result;
         }
-
     }
 }
